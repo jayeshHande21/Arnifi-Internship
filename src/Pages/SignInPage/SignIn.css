@@ -1,0 +1,41 @@
+/* SignIn.css */
+.signInContainer {
+  border: 1px solid #ccc;
+  padding: 5%;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+  background-color: #ffcccc; /* Light Red Background Color */
+}
+
+.signInHeader {
+  color: red; /* Red Text Color */
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.signInLabel {
+  color: red; /* Red Text Color */
+}
+
+.signInInput {
+  border: 1px solid red; /* Red Border */
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.signInButton {
+  background-color: red; /* Red Background Color */
+  color: #fff; /* White Text Color */
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.signInButton:hover {
+  background-color: #ff3333; /* Lighter Red on Hover */
+}
